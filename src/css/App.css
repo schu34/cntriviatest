@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eeecda;
+  color: #f08a5d;
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  background: #6a2c70;
+  outline: none;
+  border: 1px solid #b83b5e;
+  font-size: 20px;
+  margin: 0 10px;
+  min-width: 50px;
+  max-width: 150px;
+  color: lightgray;
+  border-radius: 3px;
+  height: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rightAnswer {
+  color: green;
+}
+
+.wrongAnswer {
+  color: red;
+}
+
+.app {
+  text-align: center;
+}
